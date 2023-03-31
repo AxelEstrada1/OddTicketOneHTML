@@ -5,11 +5,12 @@
 }
 
 
-
+/* color of the site itself */
 body {
     background-color: #d9dcd6;
 }
 
+/* How the top part of the page will be colored and how big it will be */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -26,6 +27,7 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
+/* These are tje links that redirect you to the different parts of the page */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -52,6 +54,7 @@ p {
     font-size: 16px;
 }
 
+/* Dimensions and details on how the main image will be shown */
 .hero {
     height: 800px;
     width: 100%;
@@ -61,6 +64,7 @@ p {
     background-position: center;
 }
 
+/* Margin details to the site */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,12 +75,14 @@ p {
     margin-left: 25px;
 }
 
+/* Dimensions of how the main container of the site will be set up */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Dimension of the secondary container and how it is goign to be set up */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -145,6 +151,15 @@ aside {
     color: #ffffff;
 }
 
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +167,15 @@ aside {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .social-media-marketing {
@@ -163,26 +187,8 @@ aside {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
 .social-media-marketing img {
     max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .social-media-marketing h2 {
